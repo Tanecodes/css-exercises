@@ -1,0 +1,9 @@
+/* these are the styles for 
+the div element via exteral method */
+div{
+  background-color: red;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
