@@ -1,0 +1,22 @@
+/* these styles change the elements that have been given the class name "oddnumbers" */
+.oddnumbers{
+  background-color: rgb(228, 115, 134);
+  font-family: verdana, DejaVu Sans, sans-serif;
+}
+/* these styles change the element that has been given the ID of "numb2" */
+#numb2{
+  color: #0a0af0;
+  font-size: 24px;
+}
+/* this line of code selects a class element that has been given two classes and changes the style for the specific element*/
+.oddnumbers.numb3{
+  font-size: 24px;
+}
+/* these styles change another element given a different ID selector */
+#numb4{
+  background-color: hsl(120, 71%, 73%);
+  font-size: 24px;
+  font-weight: bold;
+}
+/* also to mention i have chosen different color values for each background color */
+
