@@ -1,0 +1,14 @@
+/* this selects the btn1 class element and gives it 2 rules that style the color of the button created in html */
+.btn1{
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+/* this code selects the second button html element given the class btn2 which changes the background color to yellow using hsl values */
+.btn2{
+  background-color: hsl(60, 100%, 50%);
+}
+
+.btn1,.btn2{
+  font-size: 28px;
+  font-family: Helvetica,'Times New Roman',sans-serif;
+}
