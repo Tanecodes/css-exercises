@@ -1,42 +1,45 @@
-body {
+/* i didnt end up having the same solution as solution.css but i did have the same outcome as desired by modifying selectors in my own way and also moved some of the declaration blocks around to give it more of a cleaner look */
+
+body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.para{
+  font-size: 22px;
 }
 
-.small-para {
+.para.small-para{
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+.para,.small-para{
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
+#cancel-button,.button.confirm{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+#confirm-button{
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.text{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.text .child{
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
